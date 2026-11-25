@@ -1,0 +1,12 @@
+{
+  "packId": "dispatch-he",
+  "gameId": "dispatch",
+  "version": "1.0.0",
+  "title": "Dispatch – עברית",
+  "authors": ["Tirgumim"],
+  "engine": "unreal4",
+  "requiresAccount": false,
+  "allowUnknownGameVersion": true,
+  "activation": { "mode": "args", "exe": "Dispatch/Binaries/Win64/Dispatch-Win64-Shipping.exe", "args": ["-tirgumim_he", "-culture=en"], "via": "steam" },
+  "filesDir": "../work/pack/files"
+}

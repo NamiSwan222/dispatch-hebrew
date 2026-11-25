@@ -1,0 +1,15 @@
+{
+  "id": "dispatch",
+  "name": "Dispatch",
+  "nameHe": "דיספאץ'",
+  "engine": "unreal4",
+  "aboutHe": "תרגום מלא לעברית של כל שמונת הפרקים: כל הדיאלוגים והכתוביות, הבחירות, המשמרות, הפריצות, התפריטים וההגדרות, עם גופנים עבריים וכתיבה מימין לשמאל. העברית פעילה רק כשמפעילים את המשחק מהמשגר; הפעלה מ-Steam נשארת באנגלית.",
+  "detect": {
+    "steamAppId": "2592160",
+    "epicAppName": null,
+    "markerFile": "Dispatch/Binaries/Win64/Dispatch-Win64-Shipping.exe",
+    "processNames": ["Dispatch-Win64-Shipping.exe", "Dispatch.exe"]
+  },
+  "pack": { "tag": "dispatch-*", "asset": "dispatch-he-*.zip" },
+  "requires": []
+}
