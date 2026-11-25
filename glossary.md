@@ -31,12 +31,34 @@ natural, not heavier than the English. Short lines stay short.
 | Z-Team | צוות Z | |
 | Other hero/villain names | transliterate by sound; translate only if the name is a plain English word joke that would be lost (decide once, keep it) | |
 
+## Names decided during translation
+
+| English | Hebrew |
+|---|---|
+| Invisibitch | אינביזיביץ' |
+| Track Star | טרק סטאר |
+| Starblazer | סטארבלייזר |
+| Vanderstenk (Willem) / Vanderstink / VANDCO | (וילם) ונדרסטנק / ונדרסטינק / ונדקו |
+| Lightningstruck | מוכה-ברק |
+| Crypto Night | ליל הקריפטו |
+| Equilibrium / Sweetalker / Pom Pom / Brickhouse / Brainbook | אקוויליבריום / סוויטוקר / פום פום / בריקהאוס / בריינבוק |
+| Brave Brigade | הבריגדה האמיצה |
+| Phoenix Program / Astral Pulse / Proto Pulse | תוכנית הפניקס / הפולס האסטרלי / פרוטו-פולס |
+| Red Ring / The Sardine / Mole People | הטבעת האדומה / הסרדין / אנשי החפרפרת |
+| Torrance / TPD | טורנס / משטרת טורנס |
+| Phenoma-Fan | פנומה-מעריץ |
+| Coop / Visi / Mal / Robbie / Bobby | קופ / ויזי / מל / רובי / בובי |
+| Beef (Robert's dog) | ביף |
+| Stats: Combat / Mobility / Charisma / Intellect / Vigor | קרב / ניידות / כריזמה / תבונה / חיוניות |
+| "^You and {Percentage}^ of players ..." | "^אתה ו-{Percentage}^ מהשחקנים ..." (plural verb) |
+| social handles (@TorrancePD...) | Hebrew handles with underscores (@משטרת_טורנס) |
+
 ## World
 
 | English | Hebrew |
 |---|---|
 | SDN (Superhero Dispatch Network) | SDN (רשת השיגור לגיבורי-על) |
-| dispatch / dispatcher | שיגור / מְשַׁגֵּר (מוקדן) |
+| dispatch / dispatcher | שיגור / משגר (ranks: משגר מתלמד / זוטר / שותף / עוזר) |
 | shift | משמרת |
 | hero / superhero | גיבור / גיבור-על |
 | villain / supervillain | נבל / נבל-על |

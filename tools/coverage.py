@@ -18,7 +18,13 @@ HEB = re.compile(r'[֐-׿]')
 def markup_ok(en, he):
     return (set(PH.findall(en)) == set(PH.findall(he))
             and collections.Counter(TAG.findall(en)) == collections.Counter(TAG.findall(he))
-            and en.count('^') == he.count('^'))
+            and en.count('^') == he.count('^')
+            and pipes(en) == pipes(he))
+
+
+def pipes(s):
+    """'|' slice separators (timed subtitle parts), not the |plural(...) / |ordinal(...) formatters."""
+    return len(re.findall(r'\|(?!\w+\()', s))
 
 
 def check():
@@ -39,6 +45,8 @@ def check():
                 missing.append((t, r))
             elif not markup_ok(src, h):
                 broken.append((t, r, h, 'markup'))
+            elif '�' in h:
+                broken.append((t, r, h, 'U+FFFD (broken character)'))
             elif not HEB.search(h):
                 broken.append((t, r, h, 'no Hebrew'))
             else:
